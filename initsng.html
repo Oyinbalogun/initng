@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Initsng Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="app.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+
+      ul {
+        color: #ab2348;
+        border: 10px; 
+      }
+
+      h1,p {
+        color: white;
+
+      }
+
+
+      h3 {
+        color: black;
+      }
+
+      #content {
+        text-align: center;
+        padding-top: 60px;
+      }
+
+      .free {
+        /* The image used */
+        background-image: url("FreeTablet.jpg");
+
+        /* Full height */
+        height: 800%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+      .img {
+        margin-top: 100px;
+        padding: 200px 100px; 
+      }
+
+      body {
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+      
+      .green {
+        width: 100%;
+        height: 100px;
+        background-color: #7bc754;
+        display: flex;
+      }
+      .inside {
+        padding:20px 20px;
+        float: right;
+        margin: 30px 30px 30px 100px;
+        background-color: #fff;
+        border: 1px solid red;
+
+      }
+
+      input[type=text] {
+        width: 40%;
+        padding: 12px 20px;
+        margin-top: 8px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        width: 82%;
+        height: 200px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+        margin-top: 30px;
+    }
+
+      input[type=button], input[type=submit], input[type=reset] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 82%;
+    }
+
+    footer {
+      width: 100%;
+      height: 150px;
+      background-color: #000;
+      text-align: center;
+      padding-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-default  navbar-fixed-top" style="background-color: #fff;">
+      <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <h1 style="margin-top: 10px; color: black;">INITS</h1> 
+        </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" style="color: #222;">HOME</a>
+            </li>
+            <li>
+              <a href="#" style="color: #222;">ABOUT</a>
+            </li>
+            <li>
+              <a href="#" style="color: #222;">JOIN THE TEAM</a>
+            </li>
+            <li>
+              <a href="#" style="color: #222;">CONTACT US</a>
+            </li>
+
+            <li><a href="logout.php" style="color: #222;"><i class="glyphicon glyphicon-log-out" aria-hidden="true"></i>  </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="free">
+    <div class="img">
+      <img src="">
+      <p style="font-size: 17px;">Enabling through technology.</p>
+      <h1 style="font-size: 40px;">
+        Developing <br>
+        Web and Mobile Solutions
+      </h1>
+      <p style="font-size: 17px;">We creatively combine our skills, knowledge and experience to develop software solutions</p>
+    </div>
+  </div> 
+  <div class="container-fluid" style="padding-top: 150px;">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <p style="color: black; text-align: center;">Our Valued Services</p>
+      <h1 style="color: black; text-align: center;"">What We Offer</h1>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+  </div>
+  <div class="container-fluid" style="padding-top: 30px;">
+  <div class="row" >
+    <div class="col-sm-4"  style="padding-left: 100px;">
+      <i class="fa fa-cog fa-3x" aria-hidden="true" style="padding-left: 130px;"></i>
+      <h4 style="color: black"><b>Web-Based Software Development</b></h4>
+      <p style="color: black">
+        We have developed web-based solutions for a <br>
+        wide variety of clients from different commercial <br>
+        sectors and the public sector. 
+      </p>
+    </div>
+    <div class="col-sm-4" style="text-align: center;">
+      <i class="fa fa-mobile fa-3x"></i>
+      <h4 style="color: black" style="text-align: center;"><b>Mobile Apps Development</b></h4>
+      <p style="color: black" style="text-align: center;">We have developed web-based solutions for a wide variety of clients from different commercial sectors and the public sector.</p>
+    </div>
+    <div class="col-sm-4" style="padding-right: 100px;">
+      <i class="fa fa-user fa-3x"  style="padding-left: 130px;"></i>
+      <h4 style="color: black" style="text-align: center;"><b>Identity Management and Verification</b></h4>
+      <p style="color: black" style="text-align: center;">We have developed web-based solutions for a wide variety of clients from different commercial sectors and the public sector.</p>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid" style="padding-top: 50px;">
+  <div class="row">
+    <div class="col-sm-4" style="padding-left: 100px;">
+      <i class="fa fa-user fa-3x"  style="padding-left: 130px;"></i>
+      <h4 style="color: black"><b>Identity Management and Verification</b></h4>
+      <p style="color: black">We have developed web-based solutions for a wide variety of clients from different commercial sectors and the public sector.</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-user fa-3x"  style="padding-left: 130px;"></i>
+      <h4 style="color: black"><b>Identity Management and Verification</b></h4>
+      <p style="color: black">We have developed web-based solutions for a wide variety of clients from different commercial sectors and the public sector.</p>
+    </div>
+    <div class="col-sm-4" style="padding-right: 100px;">
+      <i class="fa fa-user fa-3x"  style="padding-left: 130px;"></i>
+      <h4 style="color: black"><b>Identity Management and Verification</b></h4>
+      <p style="color: black">We have developed web-based solutions for a wide variety of clients from different commercial sectors and the public sector.</p>
+    </div>
+  </div>
+  </div>
+  <div class="free">
+    <div class="img">
+    <img src="">
+    <div class="container-fluid">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <p>We have years of experience on mission-critical projects</p>
+        <h1>Looking For A Technology Partner?</h1>
+        <div class="col-sm-2" style="padding: 8px 10px; background-color: blue; margin: 5px;"><a href=""><h5 style="text-align: center;">Let's Talk</h5></a></div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid" style="padding-top: 80px;">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <h3>Unique Experience</h3>
+        <p style="color: black;">We have a team of  different teams within our company that specialise in different areas of technology and business so you can be sure you will receive best in class solutions that are innovative, practical and timely.</p>
+        <h4 style="padding-top: 40px;">Clients Include</h4>
+         <i class="fa fa-check"  style=""></i>
+           <div><p style=" color: black;">INEC Nigeria</p></div>
+        <h5 class="corel">Corel Draw</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" style="width:27%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="27">
+            27%
+              </div>
+            </div>
+            <p>HTML</p>
+            <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="27">
+            70%
+              </div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" style="width:70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="27">
+            70%
+              </div>
+            </div>
+            <p>Bootstrap</p>
+            <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" style="width:50%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="27">
+            50%
+              </div>
+            </div>
+     
+    </div>
+  </div>
+
+   <!--  <div class="row">
+      <div class="col-sm-6"></div>
+       <div class="col-sm-6">
+        <h3>Unique Experience</h3>
+        <p style="color: black;">We have a team of  different teams within our company that specialise in different areas of technology and business so you can be sure you will receive best in class solutions that are innovative, practical and timely.</p>
+        <h4 style="padding-top: 40px;">Clients Include</h4>
+      
+           <i class="fa fa-check"  style=""></i><br>
+           <div><p style=" color: black;">INEC Nigeria</p><br></div>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+           <i class="fa fa-check"  style="padding-top: 10px;"></i><br>
+        </div>
+        <div>
+          <p style=" color: black;">INEC Nigeria</p><br>
+          <p style=" color: black;">INEC Nigeria</p><br>
+          <p style=" color: black; padding-top: 10px;">INEC Nigeria</p><br>
+          <p style=" color: black; padding-top: 10px;">INEC Nigeria</p><br>
+          <p style=" color: black; padding-top: 10px;">INEC Nigeria</p><br>
+          <p style=" color: black; padding-top: 10px;">INEC Nigeria</p><br>
+          <p style=" color: black; padding-top: 10px;">INEC Nigeria</p><br>
+          <p style=" color: black; padding-top: 10px;">INEC Nigeria</p><br>
+        </div> -->
+      </div>
+    </div>
+  </div>
+<!--   <div class="row" class="green">
+    <div class="col-sm-12">
+      <h1 style="padding-left: 80px;">We are committed to delivering useful, usable, practical, and timely solutions through technology.</h1>
+    </div>
+  </div> -->
+  <div>
+    <div class="green">
+      <h4 style="padding:40px 80px; color: #fff">We are committed to delivering useful, usable, practical, and timely solutions through technology.</h4>
+        <h4 style="color: #000" class="inside">Get In Touch</h4>
+    </div>
+  </div>
+</div>
+<div class="row" style="margin: 50px 0; text-align: center;">
+  <div class="col-sm-6" style="margin-top: 100px;">
+    <p style="color: #000;">Open For You</p>
+    <h1 style="color: #000; font-size: 50px;">We're Here</h1>
+    <p style="color: #000; padding-top: 30px;">Our team is ready to listen to the need and proffer solution</p>
+    <p style="color: #000; padding-top: 30px;"><b>Head Office:</b>16, Majaro Street, Onike, Yaba Lagos.</p>
+    <p style="color: #000;"><b>Phone:</b> 0803-454-4165<p>
+    <p style="color: #000;"><b>Email:</b>info@initsng.com</p>
+  </div>
+  <div class="col-sm-6" style="background-color: #f2f2f2; padding: 20px; padding-bottom: 20px;">
+    <p style="color: #000;">With Propositions</p>
+    <h1 style="color: #000;">Contact Us</h1>
+    <form>
+      <input type="text" id="fname" name="fname" placeholder="Your Name">
+      <input type="text" id="lname" name="lname" placeholder="E-mail Address" style="margin-left: 10px">
+      <input type="text" id="fname" name="fname" placeholder="Company Name">
+      <input type="text" id="lname" name="lname" placeholder="Contact Number" style="margin-left: 10px">
+      <textarea>Message...</textarea>
+      <input type="reset" value="Send Message">
+    </form> 
+  </div>
+</div> 
+
+<footer>
+  <p style="color: #fff">Home / About / Contact Us</p>
+  <p style="color: #fff">Copywright @ 2016 INITS Limited</p>
+</footer> 
+</body>
+</html>
